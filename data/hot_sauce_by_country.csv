@@ -1,0 +1,54 @@
+﻿m49,iso3,country,hot_ones_appearances,hot_ones_sauces,hot_ones_makers,hot_ones_first_season,hot_ones_last_season,european_awards_count,european_awards_makers,european_awards_medals,tasteatlas_count,tasteatlas_makers,notes_from_the_road_count,notes_from_the_road_makers,curated_count,curated_makers,processed_on,pipeline_version
+840,USA,United States,244,148,Adoboloco; Alchemy Peppers; Angry Goat Pepper Co.; Black Eyed Susan's; Blair's; Bravado Spice Co.; Brooklyn Delhi; Burns & McCoy; Butterfly Bakery of Vermont; Cantina Royal; Clark & Hopkins; Crystal; Da' Bomb; Dave's Gourmet; Dirty Dick's; Djablo; Donis; Double Comfort; Double Take; Down To Ferment; Fat Cat; Fly By Jing; Fresco Sauce Co.; Funky's Hot Sauce Factory; Ginger Goat; Halogi; Hawaiian Hot T's; Hell Fire Detroit; Hellfire; High Desert Sauce Co.; High River Sauces; Hoff & Pepper; Hot Heads; Hot N Saucy; Hot Ones; Hotter Than El; Howler Monkey; Humble House; Huy Fong; Karma Sauce; Louisiana Hot Sauce; Lucky Dog; Mad Dog 357; Marshall's Haute Sauce; Paddy O's; Pain 100%; Pain is Good; Pisqueya; Puckerbutt Pepper Co.; Queen Majesty; Sam Sa'House; Sauce Bae; Sauce Leopard; Savir Foods; Seafire; Secret Aardvark; Seed Ranch Flavor Co.; Señor Lechuga; Shaquanda's; Small Axe Peppers; Tabasco; Tapatío; Texas Pete; The Crabby Shack; The Spicy Shark; Torchbearer Sauces; Volcanic Peppers; Yellowbird,1.0,30.0,0,,0,0,,69,"7 Siblings; Adoboloco; Angry Goat Pepper Co.; Badia Spices; Bali Marle; Barnacle Foods; Baron Brand; Bayou Passion Foods; Big Poppa Smokers; Blis LLC; Born to Hula; CaJohn's Fiery Foods; Char Man; Crystal; Da' Bomb; Dave's Gourmet; Devil Daves; Endorphin Rush; Fat Cat; Fly By Jing; Frank's RedHot; Frog's Point Honey; Green Belly Foods Brand; Guyanese Pride; Haff's Brand; Hank Sauce; Hella Hot; Hellfire; High Desert Sauce Co.; Hoff & Pepper; Hot Crispy Oil Brand; Hot N Saucy; HotBabe Hot Sauces; Huy Fong; Inner Beauty; J & J's Private Reserve; Kalahari Pepper Company; Ken's Foods; La Flamme Brand; Mad Dog 357; Max's Yummy; Mazi; Melinda's Craft Pepper Sauces; Mina; NW Elixirs; Old Bay; Oso Rojo; Panola Pepper Corporation; Pili Hunters; Pisqueya; Poison Pepper Company; Pulp Flavors; Queen Majesty; Reilly Foods Company; Ric-ter Scale: Ric Orlando; Roland Foods; Salsas Castillo; Sauce Bae; Sauced & Glazed; Secret Aardvark; Spicy Ninja Sauce; Tabasco; Tapatío; The Heatonist & Ta-nm Farm; Trappey's; Truff; Walker & Sons; Walker Foods, Inc.; Yellowbird",1,African Dream Foods,2026-10-08,hot_ones_sauces v0.5.0
+124,CAN,Canada,24,24,Dawson's; Good Heat; Heartbeat; La Pimenterie; Mark's; Pepper North; Piko Peppers; Pirate's Lantern; Sinai Gourmet; Steel City Sauce Co.,5.0,30.0,0,,0,0,,4,Heartbeat; No. 7 Hot Sauce Brand; Piko Peppers; Sinai Gourmet,0,,2026-10-08,hot_ones_sauces v0.5.0
+484,MEX,Mexico,5,3,Cholula; El Yucateco; Valentina,1.0,4.0,0,,0,1,Salsa Huichol,8,Amor; Chilera Tapatía Plc.; Cholula; El Yucateco; Herdez Group; Salsa Huichol; Tamazula Brand; Valentina,0,,2026-10-08,hot_ones_sauces v0.5.0
+036,AUS,Australia,4,4,13 Angry Scorpions; Bunsters; Dingo Sauce Co.,6.0,18.0,1,Nomad Chilli Co,,0,,2,Bunsters; Hezeus,0,,2026-10-08,hot_ones_sauces v0.5.0
+340,HND,Honduras,4,4,Chile Lengua de Fuego,16.0,28.0,0,,0,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+188,CRI,Costa Rica,2,2,Chile Monoloco,12.0,23.0,0,,0,0,,3,Chile Monoloco; Lizano; Ricante,0,,2026-10-08,hot_ones_sauces v0.5.0
+724,ESP,Spain,1,1,Onima,24.0,24.0,6,Achilipú salsas picantes.; La Chipotlera S.L.; Malpais Hot Sauce; RIBASTI; TIA FELISA; TheSauceMan,9,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+826,GBR,United Kingdom,1,1,Wiltshire Chilli Farm,9.0,9.0,2,Big Ginger Sauce Co; Callaloo Corner Ltd,5,21,Bewdston Preserves; Big Ginger Sauce Co; Big Jim's Kitchen; Black Mountain Honey; Bombom London; Braai Club Limited; Callaloo Corner Ltd; Daddy Cools Chilli Sauce; Easton Chilli; Heriot Hott; Kaiwhenua; L'ailolive - Joli; Legendary Sauce; Little Baobab; Mr Vikki's; Payst; Peckham Sauce; Sauce Shop; The Wiltshire Chilli Farm; Trodden Black; Wiga Wagaa,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+052,BRB,Barbados,1,1,Lottie's,1.0,1.0,0,,0,0,,1,Lottie's,0,,2026-10-08,hot_ones_sauces v0.5.0
+242,FJI,Fiji,1,1,Fiji Fire,11.0,11.0,0,,0,0,,1,Fiji Fire,0,,2026-10-08,hot_ones_sauces v0.5.0
+554,NZL,New Zealand,1,1,Culley's,7.0,7.0,0,,0,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+276,DEU,Germany,0,0,,,,12,Burnin Benzes Chilimanufaktur; Chilma; Eckart Saucen; Feuerwerk Chilis; Kamenica Reaper; Los Chilaquiles; ME AND MY HOT SAUCE; Moja; Not That Spicy; OILY GARLY GOODY; Pandemonic hot sauce; Ravensfeuer,33,0,,1,Chili Food Brand,0,,2026-10-08,hot_ones_sauces v0.5.0
+528,NLD,Netherlands,0,0,,,,7,Chardy's; Chillie Vinnie; De Vergulde Tong; Don Cabron; Qudo'tjes; Ti Dodo Epicé; chilisaus.be eu,13,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+040,AUT,Austria,0,0,,,,6,BRIZZ; CZILLI; MV Chili-Manufaktur GmbH; Nachtgarten OG; Pippis Pepper Hot Sauce; Trusted Origin,18,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+191,HRV,Croatia,0,0,,,,4,G.O.A.T.; OPG Hey Chilli; OPG LJUTISTRA; Volim Ljuto,7,0,,1,Žarko,0,,2026-10-08,hot_ones_sauces v0.5.0
+578,NOR,Norway,0,0,,,,4,Chili Kjell; Lloyd & Melón; Løkken Gård Hvaler; MUNNVOLD,9,0,,1,Midsummer,0,,2026-10-08,hot_ones_sauces v0.5.0
+756,CHE,Switzerland,0,0,,,,4,LAPAPETTE; POT UNO'S INFAMOUS HOTSAUCE; Spicepunk; Yare Sauce GmbH,5,0,,1,C-Foods,0,,2026-10-08,hot_ones_sauces v0.5.0
+620,PRT,Portugal,0,0,,,,3,Piri-Piri & Co; Temple Spicy; The Chilli Experience LDA,6,0,,1,Incopil,0,,2026-10-08,hot_ones_sauces v0.5.0
+056,BEL,Belgium,0,0,,,,3,Happy Hatter Hot Sauce; HotZeg; Shadow reapers,5,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+470,MLT,Malta,0,0,,,,3,Ferment Island; Filfla Chilli Co.; Jungle Jams and More,10,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+705,SVN,Slovenia,0,0,,,,3,Cili Napoj; POHORC BIO CHILI; ČILI ROŽA,4,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+203,CZE,Czechia,0,0,,,,2,GASTON CHILLI; Zach's pesto & chilli,5,2,Gorol Chilli; Zach's pesto & chilli,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+380,ITA,Italy,0,0,,,,2,B-Orto Peppers; Ornitodrinko,3,0,,2,Firelli; Gaia,0,,2026-10-08,hot_ones_sauces v0.5.0
+348,HUN,Hungary,0,0,,,,2,Chilidise; Evoatis Örömkert,2,0,,1,Erős,0,,2026-10-08,hot_ones_sauces v0.5.0
+246,FIN,Finland,0,0,,,,2,Chili Factory; Chilibolaget,3,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+372,IRL,Ireland,0,0,,,,1,Little Red's Sauces,1,3,Birdhouse; Cork Chilli Company; Tongue Tied,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+250,FRA,France,0,0,,,,1,Kaathoon,3,0,,1,Hellicious Brand,0,,2026-10-08,hot_ones_sauces v0.5.0
+100,BGR,Bulgaria,0,0,,,,1,Chilli Hills Foods Ltd,4,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+428,LVA,Latvia,0,0,,,,1,Svilis Pepper Farm,3,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+440,LTU,Lithuania,0,0,,,,1,Rūksta Nelabasis,1,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+642,ROU,Romania,0,0,,,,1,Chilliphoria,1,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+752,SWE,Sweden,0,0,,,,1,Såseriet,3,0,,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+704,VNM,Vietnam,0,0,,,,0,,0,11,Cholimex; Dh Foods; HTX Mường Khương; Love & Spice; Phước An; Saigon Charlie's; Spico; Thuận An; Tomcare; Triều Phát; VN TT Foods,1,Cholimex,0,,2026-10-08,hot_ones_sauces v0.5.0
+458,MYS,Malaysia,0,0,,,,0,,0,1,Lingham's,1,Lingham's,0,,2026-10-08,hot_ones_sauces v0.5.0
+156,CHN,China,0,0,,,,0,,0,1,Lao Gan Ma,0,,0,,2026-10-08,hot_ones_sauces v0.5.0
+410,KOR,South Korea,0,0,,,,0,,0,0,,4,CJ Haechandle; O'Food; OTTOGI; Pulmuone,0,,2026-10-08,hot_ones_sauces v0.5.0
+360,IDN,Indonesia,0,0,,,,0,,0,0,,2,Cap Ibu; Indofood,0,,2026-10-08,hot_ones_sauces v0.5.0
+710,ZAF,South Africa,0,0,,,,0,,0,0,,2,Jimmy's Sauces; Ukuva,0,,2026-10-08,hot_ones_sauces v0.5.0
+044,BHS,Bahamas,0,0,,,,0,,0,0,,1,D'Vanyas,0,,2026-10-08,hot_ones_sauces v0.5.0
+084,BLZ,Belize,0,0,,,,0,,0,0,,1,Marie Sharp's,0,,2026-10-08,hot_ones_sauces v0.5.0
+158,TWN,Taiwan,0,0,,,,0,,0,0,,1,Anita's,0,,2026-10-08,hot_ones_sauces v0.5.0
+218,ECU,Ecuador,0,0,,,,0,,0,0,,1,Gustadina,0,,2026-10-08,hot_ones_sauces v0.5.0
+222,SLV,El Salvador,0,0,,,,0,,0,0,,1,Trompa De Chucho,0,,2026-10-08,hot_ones_sauces v0.5.0
+320,GTM,Guatemala,0,0,,,,0,,0,0,,1,Picama's,0,,2026-10-08,hot_ones_sauces v0.5.0
+388,JAM,Jamaica,0,0,,,,0,,0,0,,1,Pickapeppa,0,,2026-10-08,hot_ones_sauces v0.5.0
+454,MWI,Malawi,0,0,,,,0,,0,0,,1,Nali Brand,0,,2026-10-08,hot_ones_sauces v0.5.0
+591,PAN,Panama,0,0,,,,0,,0,0,,1,D'elidas,0,,2026-10-08,hot_ones_sauces v0.5.0
+608,PHL,Philippines,0,0,,,,0,,0,0,,1,Don Hulyo,0,,2026-10-08,hot_ones_sauces v0.5.0
+630,PRI,Puerto Rico,0,0,,,,0,,0,0,,1,Mi Madre,0,,2026-10-08,hot_ones_sauces v0.5.0
+764,THA,Thailand,0,0,,,,0,,0,0,,1,Crying Thaiger,0,,2026-10-08,hot_ones_sauces v0.5.0
+780,TTO,Trinidad and Tobago,0,0,,,,0,,0,0,,1,Matouk's,0,,2026-10-08,hot_ones_sauces v0.5.0
+788,TUN,Tunisia,0,0,,,,0,,0,0,,1,Les Moulins Mahjoub,0,,2026-10-08,hot_ones_sauces v0.5.0
+604,PER,Peru,0,0,,,,0,,0,0,,0,,5,Cuatro Bacterias; El Chamán; Patragonia; Salsas Micha MT; Tarí,2026-10-08,hot_ones_sauces v0.5.0

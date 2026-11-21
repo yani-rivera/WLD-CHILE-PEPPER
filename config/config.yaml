@@ -1,0 +1,72 @@
+# WLD-CHILE-PEPPER — configuration
+# Every build copies this file into its output folder (provenance).
+
+run:
+  output_dir: outputs
+  publish_dir: docs          # the finished page is also copied to docs/index.html (GitHub Pages); remove to skip
+
+inputs:
+  production_by_year: data/chile_producers_by_year.csv   # FAOSTAT QCL, chile_producers pipeline
+  makers: data/makers_all.csv                            # hot_ones_sauces pipeline
+  hot_ones_sauces: data/hot_ones_sauces_by_season.csv    # hot_ones_sauces pipeline
+  by_country: data/hot_sauce_by_country.csv              # used only to cross-check counts
+  boundaries: data/countries-50m.json                    # Natural Earth 4.1.0 via world-atlas 2.0.2
+
+# Spotlight sources: key in makers_all.listed_in -> label shown on the map
+spotlights:
+  hot_ones: "Hot Ones"
+  european_awards: "European chilli awards"
+  tasteatlas: "TasteAtlas"
+  notes_from_the_road: "Notes from the Road"
+  curated: "Curated"
+
+# What the countries are coloured by. The reader switches between these on the page.
+# key (letters only) -> label on the button, column of the production table, legend title, class breaks in tonnes
+measures:
+  total:
+    label: "All peppers"
+    field: total_t
+    legend: "Chilli & pepper production (green + dry), tonnes"
+    breaks: [5100, 31600, 120000]        # same classes as the Day 23 poster (log scale)
+  dry:
+    label: "Dry chillies only"
+    field: dry_t
+    legend: "Dry chilli production, tonnes"
+    breaks: [2000, 12000, 55000]         # quartiles of the 2024 dry figures, rounded
+    note: "Closer to hot chillies than the total, which includes sweet peppers. Fewer countries report it."
+
+# The map library, pinned: the page refuses any file that does not match these hashes.
+# To upgrade, change the version and recompute both (openssl dgst -sha384 -binary <file> | openssl base64 -A).
+library:
+  maplibre_version: "4.7.1"
+  js_integrity: "sha384-SYKAG6cglRMN0RVvhNeBY0r3FYKNOJtznwA0v7B5Vp9tr31xAHsZC0DqkQ/pZDmj"
+  css_integrity: "sha384-MinO0mNliZ3vwppuPOUnGa+iq619pfMhLVUXfC4LHwSCvF9H+6P/KO4Q7qBOYV5V"
+
+map:
+  title: "Who Grows the Heat, Who Gets the Spotlight"
+  subtitle: "Chilli and pepper production, 2020–2024, and the hot-sauce makers in the spotlight. Who's next?"
+  default_year: 2024
+  default_spotlight: hot_ones
+  default_measure: total
+  colors: ["#fdf3b8", "#f2b65e", "#e2603c", "#b2222e"]
+  no_data_color: "#3a3f47"
+  ocean_color: "#1e2329"
+  circle_color: "#ffffff"
+  # M49 -> display name, where Natural Earth 4.1.0 uses an older name
+  name_overrides:
+    "792": "Türkiye"
+    "203": "Czechia"
+    "748": "Eswatini"
+    "807": "North Macedonia"
+  credit: "Data: Yanira A. Rivera, ORCID 0000-0003-3309-5256 (chile_producers, hot_ones_sauces). Interactive companion built with AI-assisted code."
+
+sources:
+  production: >-
+    FAOSTAT, Crops and livestock products (QCL): chillies and peppers, green (item 401) +
+    chillies and peppers, dry (item 689); includes sweet peppers. Bulk normalized CSV.
+  spotlight: >-
+    Hot Ones sauce lineups (The Takeout, Heatonist), European chilli awards, TasteAtlas,
+    Notes from the Road and a curated list, compiled with maker countries by the author.
+    A curated selection, not a measure of sauce production or markets.
+  boundaries: >-
+    Natural Earth 4.1.0 (public domain), via world-atlas 2.0.2 (TopoJSON).

@@ -1,0 +1,87 @@
+{
+  "run_id": "20261112T210451Z",
+  "project": "WLD-CHILE-PEPPER",
+  "script_version": "0.2.0",
+  "started_utc": "2026-11-12T21:04:51.870736+00:00",
+  "config_sha256": "b07e9baa22c91263767752377093488ecc91223292377f77fe9d30817bdec5fb",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "macOS-27.2.1-arm64-arm-64bit-Mach-O"
+  },
+  "inputs": {
+    "production_by_year": {
+      "path": "data/chile_producers_by_year.csv",
+      "sha256": "20720acc90c33a25c8760bff6ce318b54605fca554fa32cebe00d6da84417f40",
+      "pipeline_versions": [
+        "chile_producers v0.1.1"
+      ]
+    },
+    "makers": {
+      "path": "data/makers_all.csv",
+      "sha256": "cd417151860408a996ac9e69e66a2b4f3eb793fd5a39e9a6a8ee12785b6b4d3e",
+      "pipeline_versions": [
+        "hot_ones_sauces v0.5.0"
+      ]
+    },
+    "hot_ones_sauces": {
+      "path": "data/hot_ones_sauces_by_season.csv",
+      "sha256": "0641415c4602e1b805c530b9a3abba61f2b9dc90f9d127c65b8034264cbd94a1",
+      "pipeline_versions": [
+        "hot_ones_sauces v0.5.0"
+      ]
+    },
+    "by_country": {
+      "path": "data/hot_sauce_by_country.csv",
+      "sha256": "e0071d1f71fffe389177acdc4b0308528e22d2215691f04a166f0e8947872bbf",
+      "pipeline_versions": [
+        "hot_ones_sauces v0.5.0"
+      ]
+    },
+    "boundaries": {
+      "path": "data/countries-50m.json",
+      "sha256": "04342cdc1e3016bcd7db1630de95684d67b79fe3c8c460321e87aef469502394",
+      "pipeline_versions": []
+    }
+  },
+  "steps": [
+    {
+      "step": "load",
+      "finished_utc": "2026-11-12T21:04:51.889164+00:00",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "producers_per_year": {
+        "2020": 145,
+        "2021": 145,
+        "2022": 145,
+        "2023": 144,
+        "2024": 143
+      },
+      "maker_countries": 53,
+      "makers": 295,
+      "hot_ones_countries": 11
+    },
+    {
+      "step": "checks",
+      "finished_utc": "2026-11-12T21:04:51.963313+00:00",
+      "join_issues": 0,
+      "crosscheck_differences": 0
+    },
+    {
+      "step": "map",
+      "finished_utc": "2026-11-12T21:04:52.184183+00:00",
+      "output": "map.html",
+      "size_mb": 0.92
+    },
+    {
+      "step": "publish",
+      "finished_utc": "2026-11-12T21:04:52.185125+00:00",
+      "page": "docs/index.html",
+      "page_sha256": "505f9217c1969d1c9064d3b852d0a1f38a4cfeacf2b76d5e272c5421bb72361e"
+    }
+  ]
+}
